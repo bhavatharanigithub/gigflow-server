@@ -94,7 +94,7 @@ const app = express();
 /* ---------------- ALLOWED ORIGINS ---------------- */
 const allowedOrigins = [
   "http://localhost:5173", // Local development
-  "https://gig-flow-frontend-mu.vercel.app/api", // Vercel production
+  "https://gig-flow-frontend-mu.vercel.app", // Vercel production
 ];
 
 /* ---------------- HTTP SERVER ---------------- */
